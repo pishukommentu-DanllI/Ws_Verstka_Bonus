@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
+button {
+    border: 0;
+}
+a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #6E9C9F;
+    
+}
+li{
+    list-style: none;
+}
+
+body{
+    max-width: 1600px;
+    position: relative;
+    padding-left: 15.6%;
+}
+.header{
+    padding-right: 15.6%;
+    position: absolute;
+    z-index: 2;
+}
+.header_nav{
+    padding-top: 50px;
+}
+.header_nav__list{
+    display: flex;
+    justify-content: space-between;
+    min-width: 0;
+    gap: 103px;
+    /* flex-wrap: wrap; */
+}
+.header_nav__list__BlockLog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav__list__BlockLog{
+    gap: 14px;
+}
+.header_nav__list__PagesLink__link{
+    display: block;
+}
+
+.header_nav__list__PagesLink{
+    gap: 45px;
+    display: flex;
+}
+
+.header_nav__list__ContactsBasket{
+    display: flex;
+    gap: 67px;
+}
+
+.header_nav__list__ContactsBasket__ContactsBlock{
+    gap: 9px;
+    display: flex;
+
+}
+
+.header_nav__list__ContactsBasket__ContactsBlock__BlockImg{
+    display: flex;
+    align-items: center;
+}
+
+.section{
+    /* display: flex; */
+    gap: 65px;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    z-index: -1; */
+
+}
+
+/* встроенный класс для кнопок пагинаций */
+.swiper-pagination-bullet{
+    width: 30px;
+    height: 4px;
+
+    background: #D1D1D1;
+    border-radius: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* когда кнопка пагинации нажата */
+.swiper-pagination-bullet-active{
+    background: #000000;
+}
+
+.swiper-slide__BlockTextSlider__MainText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    /* or 61px */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    max-width: 585px;
+
+    margin-bottom: 45px;
+}
+
+.swiper-slide__BlockTextSlider__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    max-width: 385px;
+
+    margin-bottom: 52px;
+}
+
+.swiper-slide__BlockTextSlider__BlockButton{
+    display: flex;
+
+}
+
+.swiper-slide__BlockTextSlider__BlockButton__ButtonImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6E9C9F1A;
+
+    padding: 19px 26px;
+    
+}
+.section__slider{
+    margin-top: 186px;
+}
+.swiper-slide__BlockTextSlider__BlockButton__Button{
+    background: #6E9C9F;
+    display: flex;
+    align-items: center;
+    padding: 22px 50px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.section__Block{
+    background: #F1EADC;
+    position: relative;
+    /* width: 44.4%;
+    height: 100%;
+    right: 4px;
+    bottom: -1px; */
+
+    /* position: absolute;
+    z-index: -1; */
+
+    
+}
+
+.swiper-slide__BlockImg__img,
+.swiper-slide__BlockImg{
+    /* margin-bottom: 60px;
+    margin-left: 50px;
+    /* position: relative; */
+    /* margin-top: 100px;  */
+    /* max-width: 410px;
+    
+    max-height: 100%; */
+    /* position: absolute; */
+    /* right: 100px;
+    width: 65%;
+    height: 40%; */
+}
+
+.swiper-pagination{
+    left: -356px !important;
+}
+
+.section__Block__BlockImgUp,
+.section__Block__BlockImgUp__img{
+    max-width: 197px;
+    max-height: 197px;
+
+    position: absolute;
+    z-index: 2;
+    margin-top: 108px;
+    margin-left: 183px;
+}
+.swiper-slide__BlockImg__img{
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.section__Block__BlockImgDown,
+.section__Block__BlockImgDown__img{
+    max-width: 190px;
+    max-height: 318px;
+
+    z-index: 2;
+    position: absolute;
+    margin-left: -44px;
+    margin-top: -156px;
+}
